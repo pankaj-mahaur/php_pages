@@ -10,7 +10,9 @@
 </head>
 
 <body>
+   
     <div class="calculator">
+    <div class="vid"><video src="images/jinx-lights-up-the-flare-desktop-wallpaperwaifu.com.mp4" loop autoplay muted></video></div>
         <div class="card">
             <form class="calculator_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                 <input class="cal_input" required type="number" name="num01" placeholder="Number one">
